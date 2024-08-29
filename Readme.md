@@ -1,5 +1,39 @@
 # Live Project Selenium 2 - Guru99
+<p align="left">
+	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
+	<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white" alt="java">
+  <img src="https://img.shields.io/badge/Selenium-43B02A.svg?style=flat&logo=Selenium&logoColor=white" alt="selenium">
+  <img src="https://img.shields.io/badge/Apache%20Maven-C71A36.svg?style=flat&logo=Apache-Maven&logoColor=white" alt="maven">
+</p>
 
+---
+
+## 📂 Repository Structure
+
+```sh
+└── Automate-Ecommerce-Selenium/
+    ├── Readme.md
+    ├── pom.xml
+    ├── screenshot
+    ├── src
+    │   └── test
+    │       └── java
+    │           └── com
+    │               └── example
+    │                   └── test
+    │                       ├── Day1Test.java
+    │                       ├── Day2Test.java
+    │                       ├── Day3Test.java
+    │                       ├── Day4Test.java
+    │                       └── Day5Test.java
+    ├── test-output
+    │   ├── All Test Suite
+    │   │   └── testng-failed.xml
+    │   ├── emailable-report.html
+    │   └── testng-failed.xml
+    └── testng.xml
+```
+---
 ## 10 Days challenge
 <details closed><summary>Test Case</summary>
   
@@ -17,3 +51,5 @@
 | 10   | Export all Orders in csv file and display these information in console and you are able to send this file to another email id as attachment | 1\. Go to http://live.techpanda.org/index.php/backendlogin<br>2\. Login the credentials provided<br>3\. Go to Sales-> Orders menu<br>4\. Select 'CSV' in Export To dropdown and click Export button.<br>5\. Read downloaded file and display all order information in console<br>6\. Attach this exported file and email to another email id                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                      | 1) Console displays all order information<br>2) Email is sent successfully                                                                                                          |               | .         |
 
 </details>
+
+---
