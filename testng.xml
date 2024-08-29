@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="C:/guru99/LPSelenium2-guru99">
+
+        <classes>
+            <class name="com.example.test.Day1Test"/>
+            <class name="com.example.test.Day2Test"/>
+            <class name="com.example.test.Day3Test"/>
+            <class name="com.example.test.Day4Test"/>
+
+        </classes>
+    </test>
+</suite>
